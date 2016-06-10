@@ -1,5 +1,7 @@
 import  { Component } from 'angular2/core';
 import { ProductListComponent } from './products/product-list.component';
+// import {enableProdMode} from 'angular2/core';
+// enableProdMode();
 
 @Component({
     selector: 'pm-app',

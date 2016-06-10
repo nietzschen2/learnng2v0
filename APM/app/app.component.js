@@ -21,6 +21,8 @@ System.register(['angular2/core', './products/product-list.component'], function
                 product_list_component_1 = product_list_component_1_1;
             }],
         execute: function() {
+            // import {enableProdMode} from 'angular2/core';
+            // enableProdMode();
             AppComponent = (function () {
                 function AppComponent() {
                     this.pageTitle = 'Online store';
