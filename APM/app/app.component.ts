@@ -13,5 +13,5 @@ import { ProductListComponent } from './products/product-list.component';
 
 // this export class stuff is the data of the component
 export class AppComponent {
-  pageTitle: string = 'Naughty crevice';
+  pageTitle: string = 'Online store';
 }

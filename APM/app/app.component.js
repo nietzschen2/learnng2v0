@@ -23,7 +23,7 @@ System.register(['angular2/core', './products/product-list.component'], function
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.pageTitle = 'Naughty crevice';
+                    this.pageTitle = 'Online store';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
