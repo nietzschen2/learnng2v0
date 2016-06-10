@@ -10,16 +10,32 @@
         </div>
       </div>
       <div class="table-responsive">
-        <table class="table">
-          <thread>
+        <table class="table"
+          *ngIf='products && products.length'>
+          <thead>
             <tr>
               <th>
                 <button class="btn btn-primary">
                   Show image
                 </button>
               </th>
+              <th>Product</th>
+              <th>Code</th>
+              <th>Available</th>
+              <th>Price</th>
+              <th>5 Star Rating</th>
             </tr>
-          </thread>
+          </thead>
+          <tbody>
+            <tr *ngFor = '#product of products'>
+              <td></td>
+              <td>{{product.productName}}</td>
+              <td>{{product.productCode}}</td>
+              <td>{{product.releaseDate}}</td>
+              <td>{{product.price}}</td>
+              <td>{{product.starRating}}</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
