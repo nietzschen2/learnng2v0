@@ -23,6 +23,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     this.pageTitle = 'Product list';
                     this.imageWidth = 50;
                     this.imageMargin = 2;
+                    this.showImage = false;
                     this.products = [
                         {
                             "productId": 1,
@@ -76,6 +77,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                         }
                     ];
                 }
+                ProductListComponent.prototype.toggleImage = function () {
+                    this.showImage = !this.showImage;
+                };
                 ProductListComponent = __decorate([
                     core_1.Component({
                         selector: 'pm-products',
